@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1358108548 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
+	<iostream>
+	"ArrayToTextFile.h"
+	<stdio.h>
+	<stdlib.h>
+
+1358109003 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+

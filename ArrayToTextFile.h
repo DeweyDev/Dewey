@@ -14,6 +14,7 @@ class ArrayToTextFile
 
 public:
         string path;
+        int sizeofarray;
         char delim;
         void textfiller(string *);
 
@@ -43,7 +44,7 @@ ofstream filler(constantcharversion);
 
 
 
-for(int i=0; i<sizeof(*givenpointer)/sizeof(*(givenpointer+1)); i++){
+for(int i=0; i<10; i++){
 
 filler<<*givenpointer<<delim;
 givenpointer = givenpointer+1;
