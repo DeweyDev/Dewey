@@ -10,3 +10,14 @@
 	<fstream>
 	<vector>
 
+1358180406 source:c:\documents and settings\administrator.esumsroboticsla\my documents\codeblocks projects\dewey\main.cpp
+	<iostream>
+	"ArrayToTextFile.h"
+	<stdio.h>
+	<stdlib.h>
+
+1358186379 c:\documents and settings\administrator.esumsroboticsla\my documents\codeblocks projects\dewey\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+

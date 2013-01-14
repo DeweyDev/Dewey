@@ -43,8 +43,9 @@ const char * constantcharversion = path.c_str();
 ofstream filler(constantcharversion);
 
 
-
-for(int i=0; i<10; i++){
+int i = 0;
+//string delims = (string)delim;
+for(i=0; i<sizeof(*givenpointer); i++){
 
 filler<<*givenpointer<<delim;
 givenpointer = givenpointer+1;
