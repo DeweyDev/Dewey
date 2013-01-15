@@ -32,3 +32,14 @@
 	<fstream>
 	<vector>
 
+1358266944 source:c:\documents and settings\administrator\desktop\dewey++\main.cpp
+	<iostream>
+	"ArrayToTextFile.h"
+	<stdio.h>
+	<stdlib.h>
+
+1358266944 c:\documents and settings\administrator\desktop\dewey++\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+
