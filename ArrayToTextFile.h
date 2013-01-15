@@ -15,23 +15,23 @@ class ArrayToTextFile
 public:
         string path;
         int sizeofarray;
-        char delim;
+        string delim;
         void textfiller(string *);
 
-        ArrayToTextFile(string, char);
-        ArrayToTextFile(string);
+        ArrayToTextFile(string, string,int);
+        ArrayToTextFile(string,int);
 };
 
 
-ArrayToTextFile::ArrayToTextFile(string given, char delimgiven){
+ArrayToTextFile::ArrayToTextFile(string given, string delimgiven,int sizeofarray){
 path = given;
 delim = delimgiven;
 cout << "Recieved the delim and the path of where to write " << path <<endl;
 }
 
-ArrayToTextFile::ArrayToTextFile(string given){
+ArrayToTextFile::ArrayToTextFile(string given,int sizeofarray){
 path = given;
-delim = '\n';
+delim = "\n";
 cout << "Set a default delim and the path of where to write" << path <<endl;
 }
 
@@ -45,7 +45,7 @@ ofstream filler(constantcharversion);
 
 int i = 0;
 //string delims = (string)delim;
-for(i=0; i<sizeof(*givenpointer); i++){
+for(i=0; i<sizeofarray; i++){
 
 filler<<*givenpointer<<delim;
 givenpointer = givenpointer+1;
