@@ -11,7 +11,7 @@ int main()
 
     cout << "Hello world!" << endl;
     string kinch[3] = {"a", "second el", "third"};
-    ArrayToTextFile newone("C:/haha.txt",3);
+    ArrayToTextFile newone("C:/haha.txt",';', 3);
     string *pointy = &kinch[0];
 
     newone.textfiller(pointy);
