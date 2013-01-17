@@ -10,8 +10,8 @@ int main()
     system("color 1A");
 
     cout << "Hello world!" << endl;
-    string kinch[3] = {"a", "second el", "third"};
-    ArrayToTextFile newone("C:/haha.txt",';', 3);
+    string kinch[3] = {"klinch", "knot", "third"};
+    ArrayToTextFile newone("C:/kinchy.txt",';', 3);
     string *pointy = &kinch[0];
 
     newone.textfiller(pointy);

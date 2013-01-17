@@ -21,13 +21,13 @@
 	<fstream>
 	<vector>
 
-1358215273 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
+1358462231 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
 	<iostream>
 	"ArrayToTextFile.h"
 	<stdio.h>
 	<stdlib.h>
 
-1358216762 c:\users\neelam\c++ projects codeblocks\dewey\arraytotextfile.h
+1358462231 c:\users\neelam\c++ projects codeblocks\dewey\arraytotextfile.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -42,4 +42,8 @@
 	<iostream>
 	<fstream>
 	<vector>
+
+1358462330 source:c:\users\neelam\c++ projects codeblocks\dewey\arrayaverage.c
+	<stdio.h>
+	<stdlib.h>
 
