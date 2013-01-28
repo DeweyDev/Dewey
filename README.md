@@ -5,5 +5,5 @@ A Simple C++ Library geared towards making simplifying tasks for beginners and f
 
 ##There are two main branches to this project:
 
-  *master (The actual library)
-  *gh_pages (The documentation) 
+  * master (The actual library)
+  * gh_pages (The documentation) 
