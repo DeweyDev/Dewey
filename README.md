@@ -7,3 +7,4 @@ A Simple C++ Library geared towards making simplifying tasks for beginners and f
 
   * master (The actual library)
   * gh_pages (The documentation) 
+  * unstable (Very unstable things) 
