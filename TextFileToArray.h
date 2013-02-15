@@ -8,14 +8,14 @@ This class has one constructor that only only accepts a string:
 
 TextFileToArray::TextFileToArray(path_of_the_text_file)
 
-The string is the path to the text file. (Note: all dashes in the path must be done with “/” or “\\” and the file extension “.txt” must also be included.
+The string is the path to the text file. (Note: all dashes in the path must be done with ï¿½/ï¿½ or ï¿½\\ï¿½ and the file extension ï¿½.txtï¿½ must also be included.
 
 ==============================================
 
-This class has only 2 methods, which accepts a pointer to an array of strings or a vector of strings:
+This class has only 2 methods, which accepts an address to an array of strings or a vector of strings:
 
-TextFileToArray::arrayfiller(pointer_to_array_of_strings);
-TextFileToArray::vectorfiller(pointer_to_vector);
+TextFileToArray::arrayfiller(address_of_array_of_strings);
+TextFileToArray::vectorfiller(address_of_vector);
 
 After this method has run the empty array/vector will be filled with the contents of the text file.
 
