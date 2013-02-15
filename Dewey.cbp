@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="ArrayToTextFile.h" />
+		<Unit filename="DirectoryToArray.h" />
 		<Unit filename="TextFileToArray.h" />
 		<Unit filename="calctools.h" />
 		<Unit filename="dewey.h" />

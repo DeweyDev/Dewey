@@ -3,6 +3,7 @@
 
 #include "ArrayToTextFile.h"
 #include "TextFileToArray.h"
+#include "DirectoryToArray.h"
 #include "calctools.h"
 #include <iostream>
 #include <vector>

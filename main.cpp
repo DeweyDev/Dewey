@@ -1,13 +1,12 @@
 #include <iostream>
-#include "dewey.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "Dewey.h"
 
 using namespace std;
 
 int main()
 {
-    double bunz[2]= {0,100};
-    double average = averageArray(&bunz[0],2);
-    cout<< average;
+    string directories[4];
+    DirectoryToArray newone("C://");
+    newone.arrayfiller(&directories[0]);
+    return 0;
 }
