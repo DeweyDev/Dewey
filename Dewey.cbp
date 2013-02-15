@@ -34,9 +34,8 @@
 		</Compiler>
 		<Unit filename="ArrayToTextFile.h" />
 		<Unit filename="TextFileToArray.h" />
-		<Unit filename="arrayAverage.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="arrayAverage.h" />
+		<Unit filename="dewey.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

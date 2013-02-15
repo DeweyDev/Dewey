@@ -1,5 +1,11 @@
+#ifndef _calctools
+#define _calctools
+
+
 #include <stdio.h>
 #include <stdlib.h>
+
+using namespace std;
 
 double averageArray(int *givenpassedpointer, int givenfinalsize);
 
@@ -22,3 +28,4 @@ double answer =  ((double)sum/(finalsize+1));
 return answer;
 }
 
+#endif
