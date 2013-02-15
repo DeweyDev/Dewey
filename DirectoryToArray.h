@@ -30,8 +30,10 @@ void DirectoryToArray::arrayfiller(string* arraypointer)
     dp = opendir (chardirectorypath);
     if (dp != NULL)
     {
-        while (ep = readdir (dp))
-            puts (ep->d_name);
+        while (ep = readdir (dp)){
+            *arraypointer=(string)ep->d_name;
+            arraypointer++;
+        }
         (void) closedir (dp);
     }
     else

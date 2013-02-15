@@ -1,11 +1,9 @@
 # depslib dependency file v1.0
-1360941566 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
+1360949500 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
 	<iostream>
-	"dewey.h"
-	<stdio.h>
-	<stdlib.h>
+	"Dewey.h"
 
-1359062653 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\arraytotextfile.h
+1360942494 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\arraytotextfile.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -47,20 +45,29 @@
 	<stdio.h>
 	<stdlib.h>
 
-1360940885 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
+1360948807 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
 	"ArrayToTextFile.h"
 	"TextFileToArray.h"
+	"DirectoryToArray.h"
 	"calctools.h"
 	<iostream>
 	<vector>
 	<fstream>
 
-1359062654 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\textfiletoarray.h
+1360942505 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\textfiletoarray.h
 	<iostream>
 	<fstream>
 	<vector>
 
-1360941573 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\calctools.h
+1360942874 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\calctools.h
 	<stdio.h>
 	<stdlib.h>
+
+1360952137 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\directorytoarray.h
+	<iostream>
+	"dewey.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
 
