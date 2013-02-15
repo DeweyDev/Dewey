@@ -34,7 +34,7 @@
 		</Compiler>
 		<Unit filename="ArrayToTextFile.h" />
 		<Unit filename="TextFileToArray.h" />
-		<Unit filename="arrayAverage.h" />
+		<Unit filename="calctools.h" />
 		<Unit filename="dewey.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

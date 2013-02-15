@@ -36,42 +36,47 @@ class TextFileToArray
 {
 
 public:
-        string path;
-        char delim;
-        void arrayfiller(string *);
-        void vectorfiller(vector<string>*givenpointer);
-        TextFileToArray(string, char);
-        TextFileToArray(string);
+    string path;
+    char delim;
+    void arrayfiller(string *);
+    void vectorfiller(vector<string>*givenpointer);
+    TextFileToArray(string, char);
+    TextFileToArray(string);
 };
 
 
-TextFileToArray::TextFileToArray(string given, char delimgiven){
-path = given;
-delim = delimgiven;
-cout << "Locating file... " << path <<endl;
+TextFileToArray::TextFileToArray(string given, char delimgiven)
+{
+    path = given;
+    delim = delimgiven;
+    cout << "Locating file... " << path <<endl;
 }
 
-TextFileToArray::TextFileToArray(string given){
-path = given;
-delim = '\n';
-cout << "Locating file... " << path <<endl;
+TextFileToArray::TextFileToArray(string given)
+{
+    path = given;
+    delim = '\n';
+    cout << "Locating file... " << path <<endl;
 }
 
-void TextFileToArray::arrayfiller(string *givenpointer){
+void TextFileToArray::arrayfiller(string *givenpointer)
+{
 
-cout<< "Recieved array pointer address" << givenpointer <<endl;
+    cout<< "Recieved array pointer address" << givenpointer <<endl;
 
-const char * constantcharversion = path.c_str();
-ifstream filler(constantcharversion);
+    const char * constantcharversion = path.c_str();
+    ifstream filler(constantcharversion);
 
-string bunz;
-string lineoutliner = "Line ";
-string equalssign = " = ";
-int numbercounter = 1;
-    while(!filler.eof()){
+    string bunz;
+    string lineoutliner = "Line ";
+    string equalssign = " = ";
+    int numbercounter = 1;
+    while(!filler.eof())
+    {
 
         std::getline(filler, bunz, delim);
-        if(bunz.empty()){
+        if(bunz.empty())
+        {
             lineoutliner = "";
             numbercounter = 0;
             equalssign = "";
@@ -86,26 +91,29 @@ int numbercounter = 1;
     }
 
 
-filler.close();
+    filler.close();
 
 
 }
 
-void TextFileToArray::vectorfiller(vector<string>*givenpointer){
+void TextFileToArray::vectorfiller(vector<string>*givenpointer)
+{
 
 
 
-const char * constantcharversion = path.c_str();
-ifstream filler(constantcharversion);
+    const char * constantcharversion = path.c_str();
+    ifstream filler(constantcharversion);
 
-string bunz;
-string lineoutliner = "Line ";
-string equalssign = " = ";
-int numbercounter = 1;
-    while(!filler.eof()){
+    string bunz;
+    string lineoutliner = "Line ";
+    string equalssign = " = ";
+    int numbercounter = 1;
+    while(!filler.eof())
+    {
 
         std::getline(filler, bunz, ';');
-        if(bunz.empty()){
+        if(bunz.empty())
+        {
             lineoutliner = "";
             numbercounter = 0;
             equalssign = "";
@@ -120,7 +128,7 @@ int numbercounter = 1;
     }
 
 
-filler.close();
+    filler.close();
 
 
 }
