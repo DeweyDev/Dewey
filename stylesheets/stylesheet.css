@@ -58,15 +58,17 @@ body {
 
 a {
   color: #2879d0;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 a:hover {
   color: #2268b2;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -78,6 +80,7 @@ header h1 {
   line-height: 1;
   margin-bottom: 0.2em;
   width: 540px;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 header h2 {
@@ -87,26 +90,31 @@ header h2 {
   line-height: 1.3;
   width: 540px;
   letter-spacing: 0;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 .inner {
   position: relative;
   width: 940px;
   margin: 0 auto;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 #content-wrapper {
   border-top: solid 1px #fff;
   padding-top: 30px;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 #main-content {
   width: 690px;
   float: left;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 #main-content img {
   max-width: 100%;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 aside#sidebar {
@@ -117,15 +125,18 @@ aside#sidebar {
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
   font-size: 12px;
   line-height: 1.3;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 #downloads {
   margin-bottom: 40px;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 a.button {
@@ -136,17 +147,19 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif; 
 }
 a.button small {
   display: block;
   font-size: 11px;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 header a.button {
   position: absolute;
   right: 0;
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 aside a.button {
   width: 138px;
@@ -155,10 +168,11 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
 }
 
 code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   color: #222;
   margin-bottom: 30px;
   font-size: 13px;
@@ -225,7 +239,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+ font-family: 'Ubuntu', Helvetica, Arial, serif;
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
@@ -239,7 +253,7 @@ form {
 }
 
 #main-content h2 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -253,7 +267,7 @@ form {
 }
 
 #main-content h3 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
@@ -269,7 +283,7 @@ form {
 }
 
 #main-content h4 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -283,7 +297,7 @@ h4:before {
 }
 
 #main-content h5 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
 } 
@@ -295,7 +309,7 @@ h5:before {
 }
 
 #main-content h6 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Ubuntu', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
 } 
