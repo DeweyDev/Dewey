@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1360949500 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
+1365977453 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
 	<iostream>
-	"Dewey.h"
+	"dewey.h"
 
-1360942494 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\arraytotextfile.h
+1365976668 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\arraytotextfile.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -19,13 +19,11 @@
 	<fstream>
 	<vector>
 
-1358462231 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
+1361846158 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
 	<iostream>
-	"ArrayToTextFile.h"
-	<stdio.h>
-	<stdlib.h>
+	"dewey.h"
 
-1358462231 c:\users\neelam\c++ projects codeblocks\dewey\arraytotextfile.h
+1361481334 c:\users\neelam\c++ projects codeblocks\dewey\arraytotextfile.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -45,7 +43,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1360948807 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
+1365976668 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
 	"ArrayToTextFile.h"
 	"TextFileToArray.h"
 	"DirectoryToArray.h"
@@ -54,20 +52,90 @@
 	<vector>
 	<fstream>
 
-1360942505 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\textfiletoarray.h
+1365977439 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\textfiletoarray.h
 	<iostream>
 	<fstream>
 	<vector>
 
-1360942874 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\calctools.h
+1365977095 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\calctools.h
 	<stdio.h>
 	<stdlib.h>
+	<iostream>
+	<sstream>
 
-1360952137 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\directorytoarray.h
+1365976668 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\directorytoarray.h
 	<iostream>
 	"dewey.h"
 	<stdio.h>
 	<stdlib.h>
 	<sys/types.h>
 	<dirent.h>
+	<vector>
+
+1361481334 c:\users\neelam\c++ projects codeblocks\dewey\dewey.h
+	"ArrayToTextFile.h"
+	"TextFileToArray.h"
+	"DirectoryToArray.h"
+	"calctools.h"
+	<iostream>
+	<vector>
+	<fstream>
+
+1361481334 c:\users\neelam\c++ projects codeblocks\dewey\textfiletoarray.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1361481334 c:\users\neelam\c++ projects codeblocks\dewey\directorytoarray.h
+	<iostream>
+	"dewey.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
+	<vector>
+
+1361846750 c:\users\neelam\c++ projects codeblocks\dewey\calctools.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+
+1361895670 source:/home/administrator/Dewey/main.cpp
+	<iostream>
+	"dewey.h"
+
+1361883358 /home/administrator/Dewey/dewey.h
+	"ArrayToTextFile.h"
+	"TextFileToArray.h"
+	"DirectoryToArray.h"
+	"calctools.h"
+	<iostream>
+	<vector>
+	<fstream>
+
+1361883357 /home/administrator/Dewey/ArrayToTextFile.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1361883358 /home/administrator/Dewey/TextFileToArray.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1361883357 /home/administrator/Dewey/DirectoryToArray.h
+	<iostream>
+	"dewey.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
+	<vector>
+
+1361895639 /home/administrator/Dewey/calctools.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
 

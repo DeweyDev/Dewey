@@ -4,9 +4,9 @@ Created on: January 2, 2013
 Copyright 2013
 ==============================================
 
-This class has one constructor that only only accepts a string:
+This class has 2 constructors that accept a string (or an optional delimeter):
 
-TextFileToArray::TextFileToArray(path_of_the_text_file)
+TextFileToArray::TextFileToArray(path_of_the_text_file,option_char_delimeter)
 
 The string is the path to the text file. (Note: all dashes in the path must be done with �/� or �\\� and the file extension �.txt� must also be included.
 
@@ -67,32 +67,34 @@ void TextFileToArray::arrayfiller(string *givenpointer)
     const char * constantcharversion = path.c_str();
     ifstream filler(constantcharversion);
 
-    string bunz;
-    string lineoutliner = "Line ";
-    string equalssign = " = ";
-    int numbercounter = 1;
-    while(!filler.eof())
-    {
+        if(filler){            /* CHECK TO SEE IF FILE EVEN EXISTS */
 
-        std::getline(filler, bunz, delim);
-        if(bunz.empty())
-        {
-            lineoutliner = "";
-            numbercounter = 0;
-            equalssign = "";
+                string bunz;
+                string lineoutliner = "Line ";
+                string equalssign = " = ";
+                int numbercounter = 1;
+                while(!filler.eof())
+                {
+
+                        std::getline(filler, bunz, delim);
+                        if(bunz.empty())
+                        {
+                                lineoutliner = "";
+                                numbercounter = 0;
+                                equalssign = "";
+                        }
+                        cout << lineoutliner  << numbercounter << equalssign << bunz <<endl;
+                        cout<<""<<endl;
+                        *givenpointer = bunz;
+                        givenpointer++;
+                        numbercounter++;
+
+
+                }
+
+
+                filler.close();
         }
-        cout << lineoutliner  << numbercounter << equalssign << bunz <<endl;
-        cout<<""<<endl;
-        *givenpointer = bunz;
-        givenpointer++;
-        numbercounter++;
-
-
-    }
-
-
-    filler.close();
-
 
 }
 
@@ -133,6 +135,3 @@ void TextFileToArray::vectorfiller(vector<string>*givenpointer)
 
 }
 #endif
-
-
-

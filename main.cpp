@@ -1,13 +1,21 @@
 #include <iostream>
-#include "Dewey.h"
+#include "dewey.h"
 
 using namespace std;
 
 int main()
 {
-    string directories[99];
-    DirectoryToArray newone("C:/Program Files");
-    newone.arrayfiller(&directories[0]);
-    cout<<directories[6];
+    int input;
+    cout << "Enter numebr to convert: \n";
+    cin >> input;
+    cout << toBinary(input);
+
+
+    string input2;
+    cout << "Enter numebr to convert: \n";
+    cin >> input2;
+    cout << toDecimal(input2);
+
+
     return 0;
 }
