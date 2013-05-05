@@ -6,6 +6,19 @@ using namespace std;
 
 int main()
 {
+    int i;
+    DirectoryToArray stuff("C:/Documents\ and\ Settings/Norbert\ Joseph/My\ Documents");
+
+    string storaged[100];
+
+    stuff.arrayfiller(&storaged[0]);
+
+    for(i = 0; i < 100; i++){
+
+        cout << "\nStorage: "<< storaged[i]<<"\n";
+
+    }
+
     int input;
     cout << "Enter numebr to convert: \n";
     cin >> input;
