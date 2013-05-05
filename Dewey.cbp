@@ -32,10 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="ArrayToTextFile.h" />
-		<Unit filename="DirectoryToArray.h" />
-		<Unit filename="TextFileToArray.h" />
-		<Unit filename="calctools.h" />
+		<Unit filename="Dewey/ArrayToTextFile.cpp" />
+		<Unit filename="Dewey/ArrayToTextFile.h" />
+		<Unit filename="Dewey/DirectoryToArray.cpp" />
+		<Unit filename="Dewey/DirectoryToArray.h" />
+		<Unit filename="Dewey/TextFileToArray.cpp" />
+		<Unit filename="Dewey/TextFileToArray.h" />
+		<Unit filename="Dewey/calctools.cpp" />
+		<Unit filename="Dewey/calctools.h" />
 		<Unit filename="dewey.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
