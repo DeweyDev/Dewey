@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1365977453 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
+1367777215 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\main.cpp
 	<iostream>
 	"dewey.h"
 
@@ -43,11 +43,11 @@
 	<stdio.h>
 	<stdlib.h>
 
-1365976668 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
-	"ArrayToTextFile.h"
-	"TextFileToArray.h"
-	"DirectoryToArray.h"
-	"calctools.h"
+1367777642 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey.h
+	"Dewey/ArrayToTextFile.h"
+	"Dewey/TextFileToArray.h"
+	"Dewey/DirectoryToArray.h"
+	"Dewey/calctools.h"
 	<iostream>
 	<vector>
 	<fstream>
@@ -138,4 +138,40 @@
 	<stdlib.h>
 	<iostream>
 	<sstream>
+
+1367776896 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367777097 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\textfiletoarray.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367777049 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\directorytoarray.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
+	<vector>
+
+1367777638 c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\calctools.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+
+1367777370 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\arraytotextfile.cpp
+	"ArrayToTextFile.h"
+
+1367777383 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\calctools.cpp
+	"calctools.h"
+
+1367777407 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\directorytoarray.cpp
+	"DirectoryToArray.h"
+
+1367777418 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\textfiletoarray.cpp
+	"TextFileToArray.h"
 
