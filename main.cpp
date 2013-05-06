@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 int main()
 {
     int i;
@@ -29,6 +30,7 @@ int main()
     cout << "Enter numebr to convert: \n";
     cin >> input2;
     cout << toDecimal(input2);
+
 
 
     return 0;
