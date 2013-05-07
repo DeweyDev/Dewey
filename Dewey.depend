@@ -211,3 +211,52 @@
 1367889008 source:c:\users\neelam\c++ projects codeblocks\dewey\dewey\directorytoarray.cpp
 	"DirectoryToArray.h"
 
+1367928950 source:c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\arraytotextfile.cpp
+	"ArrayToTextFile.h"
+
+1367928950 c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367937145 source:c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\calctools.cpp
+	"calctools.h"
+
+1367937145 c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\calctools.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+
+1367928950 source:c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\directorytoarray.cpp
+	"DirectoryToArray.h"
+
+1367928950 c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\directorytoarray.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
+	<vector>
+
+1367928950 source:c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\textfiletoarray.cpp
+	"TextFileToArray.h"
+
+1367928950 c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey\textfiletoarray.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367937651 source:c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\main.cpp
+	<iostream>
+	"dewey.h"
+
+1367928950 c:\documents and settings\administrator.esumsroboticsla\my documents\github\dewey\dewey.h
+	"Dewey/ArrayToTextFile.h"
+	"Dewey/TextFileToArray.h"
+	"Dewey/DirectoryToArray.h"
+	"Dewey/calctools.h"
+	<iostream>
+	<vector>
+	<fstream>
+

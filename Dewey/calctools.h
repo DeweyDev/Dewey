@@ -19,6 +19,24 @@ int findIndexOfInt(int intarray[], int array_size, int findthis);
 void copyArray(int sourceArray[], int destinationArray[], int numOfElements);
 int sumArray(int givenarray[],int num_of_elements);
 double avgArray(int givenarray[],int num_of_elements);
-int findMaxVal(int storageArray[], int numOfElements);
+
+template <class numType> numType findMaxVal(numType storageArray[], int numOfElements)
+{
+
+    int i;
+    numType max = 0;
+
+    for(i = 0; i < numOfElements; i++)
+    {
+
+        if(storageArray[i] > max)
+        {
+            max = storageArray[i];
+        }
+
+    }
+
+    return max;
+}
 
 #endif

@@ -8,9 +8,14 @@ using namespace std;
 int main()
 {
     int i;
+
     DirectoryToArray stuff("C:/");
 
     string storaged[100];
+
+    double arrayofdubs[5] = {43.43,34.23,666.99,23.43,234.3};
+
+    printf("\nThe index of the largest number is %lf\n", findMaxVal<double>(arrayofdubs,5));
 
     stuff.arrayfiller(&storaged[0]);
 

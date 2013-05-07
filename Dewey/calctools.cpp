@@ -120,7 +120,7 @@ double avgArray(int givenarray[],int num_of_elements)
     int sum = sumArray(givenarray,num_of_elements);
 
     average = (double)sum/num_of_elements;
-	
+
 	return average;
 
 }
@@ -180,21 +180,3 @@ string toDecimal(string binary)
 
 }
 
-int findMaxVal(int storageArray[], int numOfElements)
-{
-
-    int i;
-    int max = 0;
-
-    for(i = 0; i < numOfElements; i++)
-    {
-
-        if(storageArray[i] > max)
-        {
-            max = storageArray[i];
-        }
-
-    }
-
-    return max;
-}
