@@ -19,7 +19,7 @@
 	<fstream>
 	<vector>
 
-1361846158 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
+1367888862 source:c:\users\neelam\c++ projects codeblocks\dewey\main.cpp
 	<iostream>
 	"dewey.h"
 
@@ -72,11 +72,11 @@
 	<dirent.h>
 	<vector>
 
-1361481334 c:\users\neelam\c++ projects codeblocks\dewey\dewey.h
-	"ArrayToTextFile.h"
-	"TextFileToArray.h"
-	"DirectoryToArray.h"
-	"calctools.h"
+1367888382 c:\users\neelam\c++ projects codeblocks\dewey\dewey.h
+	"Dewey/ArrayToTextFile.h"
+	"Dewey/TextFileToArray.h"
+	"Dewey/DirectoryToArray.h"
+	"Dewey/calctools.h"
 	<iostream>
 	<vector>
 	<fstream>
@@ -174,4 +174,40 @@
 
 1367777418 source:c:\documents and settings\norbert joseph\my documents\codeblocks projects\dewey\dewey\textfiletoarray.cpp
 	"TextFileToArray.h"
+
+1367888382 source:c:\users\neelam\c++ projects codeblocks\dewey\dewey\arraytotextfile.cpp
+	"ArrayToTextFile.h"
+
+1367888382 c:\users\neelam\c++ projects codeblocks\dewey\dewey\arraytotextfile.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367888382 source:c:\users\neelam\c++ projects codeblocks\dewey\dewey\calctools.cpp
+	"calctools.h"
+
+1367888382 c:\users\neelam\c++ projects codeblocks\dewey\dewey\calctools.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+
+1367888382 source:c:\users\neelam\c++ projects codeblocks\dewey\dewey\textfiletoarray.cpp
+	"TextFileToArray.h"
+
+1367888382 c:\users\neelam\c++ projects codeblocks\dewey\dewey\textfiletoarray.h
+	<iostream>
+	<fstream>
+	<vector>
+
+1367888382 c:\users\neelam\c++ projects codeblocks\dewey\dewey\directorytoarray.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<dirent.h>
+	<vector>
+
+1367888836 source:c:\users\neelam\c++ projects codeblocks\dewey\dewey\directorytoarray.cpp
+	"DirectoryToArray.h"
 

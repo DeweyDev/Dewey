@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int i;
-    DirectoryToArray stuff("C:/Documents\ and\ Settings/Norbert\ Joseph/My\ Documents");
+    DirectoryToArray stuff("C:/");
 
     string storaged[100];
 

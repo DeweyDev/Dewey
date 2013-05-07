@@ -2,24 +2,37 @@
 
 void DirectoryToArray::arrayfiller(string* arraypointer)
 {
-    char *chardirectorypath = (char*)directorypath.c_str();
-    DIR *dp;
-    struct dirent *ep;
 
-    dp = opendir (chardirectorypath);
-    if (dp != NULL)
-    {
-        while (ep = readdir (dp))
+    // Code for GNU and MinGW
+
+    #ifdef __GNUC__
+
+        char *chardirectorypath = (char*)directorypath.c_str();
+        DIR *dp;
+        struct dirent *ep;
+
+        dp = opendir (chardirectorypath);
+        if (dp != NULL)
         {
-            *arraypointer=(string)ep->d_name;
-            arraypointer++;
+            while (ep = readdir (dp))
+            {
+                *arraypointer=(string)ep->d_name;
+                arraypointer++;
+            }
+            (void) closedir (dp);
         }
-        (void) closedir (dp);
-    }
-    else
-        perror ("Couldn't open the directory");
+        else
+            perror ("Couldn't open the directory");
 
+    #endif
 
+    // Code for MSVC
+
+    #ifdef _MSC_VER
+
+        cout << "\nHaven't set up MSVC YET\n";
+
+    #endif
 }
 DirectoryToArray::DirectoryToArray(string given)
 {
