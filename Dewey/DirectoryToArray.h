@@ -33,7 +33,11 @@ After this method has run the empty array/vector will be filled with the files i
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <dirent.h>
+
+#ifdef __GNUC__ 
+	#include <dirent.h>
+#endif
+
 #include <vector>
 
 using namespace std;

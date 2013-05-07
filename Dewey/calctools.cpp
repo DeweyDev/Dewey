@@ -120,6 +120,8 @@ double avgArray(int givenarray[],int num_of_elements)
     int sum = sumArray(givenarray,num_of_elements);
 
     average = (double)sum/num_of_elements;
+	
+	return average;
 
 }
 

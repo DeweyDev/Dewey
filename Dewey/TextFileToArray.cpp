@@ -4,7 +4,7 @@ TextFileToArray::TextFileToArray(string given, char delimgiven)
 {
     path = given;
     delim = delimgiven;
-    cout << "Locating file... " << path <<endl;
+    cout << "Locating file... " << path << endl;
 }
 
 TextFileToArray::TextFileToArray(string given)
