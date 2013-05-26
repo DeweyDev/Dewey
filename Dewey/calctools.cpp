@@ -1,3 +1,48 @@
+//
+// THIS FILE IS PART OF THE DEWEY++ SOFTWARE SOURCE CODE.
+// USE, DISTRIBUTION AND REPRODUCTION OF THIS LIBRARY SOURCE IS
+// GOVERNED BY A GPL-STYLE SOURCE LICENSE INCLUDED WITH THIS SOURCE
+// IN 'COPYING'. PLEASE READ THESE TERMS BEFORE DISTRIBUTING.
+//
+//
+
+//+---------------------------------------------------------------------------
+//
+//  DEWEY DEV, 2013.
+//
+//  File:       calctools.cpp
+//
+//  Contents:   Useful functions
+//
+//
+//  Classes:    None (just functions)
+//
+//  Functions:  string toBinary(int decimal);
+//
+//              string toDecimal(string binary);
+//
+//              void bubbleSortMinToMax(int numbers[], int array_size);
+//
+//              void bubbleSortMaxToMin(int numbers[], int array_size);
+//
+//              int findIndexOfChar(char chars[], int array_size, char findthis);
+//
+//              int findIndexOfInt(int intarray[], int array_size, int findthis);
+//
+//              void copyArray(int sourceArray[], int destinationArray[], int numOfElements);
+//
+//              int sumArray(int givenarray[],int num_of_elements);
+//
+//              double avgArray(int givenarray[],int num_of_elements);
+//
+//
+//  Author:     shrimpboyho ( shrimpboyhoftw@gmail.com )
+//
+//  History:    5-25-2013   shrimpboyho   Got stability workin
+//
+//----------------------------------------------------------------------------
+
+
 #include "calctools.h"
 
 // Sorts an array
